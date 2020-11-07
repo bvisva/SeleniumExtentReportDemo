@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "SearchSuite">
+<parameter name="selenium.chromedriver" value="webdriver.chrome.driver" />
+<parameter name="selenium.chromedriverurl" value="C:\\Users\\DELL\\eclipse-workspace\\BrowserDrivers\\chromedriver.exe" />
+
+<listeners>
+<listener class-name = "extentreportselenium.MyTestListner"></listener>
+</listeners>
+
+   <test name = "testextentdemo">
+      <classes>
+        <class name = "extentreportselenium.ExtentReportDemo" />
+      </classes>
+   </test>   
+      
+   </suite>
+   
+   
